@@ -1,0 +1,24 @@
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.heading{
+    text-transform: capitalize;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 415px) {
+    .content{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+}

@@ -1,0 +1,33 @@
+Dependencies: 
+- React
+- React router
+- 
+
+Custom hooks: 
+- HTTP hook
+- Hook for searching?
+
+Components:
+- search From ( use the Form form react router dom?)
+- Content
+
+Routs:
+-
+
+
+Search field: 
+- use derived state?
+
+Backend needed?
+
+API key: 
+d46cbaccec2e435eab0187c81b62adbf
+
+Query string: 
+https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1
+
+Secrect API key: 
+ec75e4bb56a760bd
+
+Image url query string: 
+https://farm${farm}.staticflickr.com/${server}/${id}_${secret}_m.jpg

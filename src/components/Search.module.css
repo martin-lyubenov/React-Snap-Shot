@@ -1,0 +1,51 @@
+.container{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input{
+    background-color: ghostwhite;
+    width: 90%;
+    outline: none;
+}
+
+.search-button{
+    display: block;
+    background-color: blue;
+    border: none;
+    color: azure;
+}
+
+.search-button:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: blue;
+    border-radius: 2px;
+}
+
+.themes{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.themes input{
+    flex: 1;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.themes input:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
